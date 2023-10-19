@@ -261,13 +261,10 @@ body {
 
 
 nav {
-
     --primaryColor: #000080;
     --secondaryColor: white;
     --primaryTextColor: black;
     --secondaryTextColor: #dcf4ff;
-    --bg: #292c30;
-    --nav: white;
 
 
     position: fixed;
@@ -276,7 +273,10 @@ nav {
     left: 50%;
     display: flex;
     transform: translateX(-50%);
-    background-color: white;
+    background-color: gray;
+    font-weight: bold;
+    width: 1250px;
+    border-radius: 10px;
 }
 
 nav a {
@@ -287,11 +287,10 @@ nav a {
 
     cursor: pointer;
     color: #000080;
-    background-color: white;
+    background-color: gray;
 }
 
 nav a {
-    text-decoration: none;
     color: #000080;
     border-radius: 35px;
     display: flex;
@@ -302,39 +301,15 @@ nav a {
 }
 
 nav a {
-
     font-size: 14px;
     text-transform: uppercase;
     display: inline-block;
     padding: 10px 0;
     position: relative;
-
-}
-
-nav a::before {
-    content: '';
-    display: block;
-    height: 3px;
-    background-color: #444;
-    position: absolute;
-    top: 0;
-    width: 0%;
-    transition: all 0.3s ease-in-out;
 }
 
 nav a:hover::before {
     width: 100%;
-}
-
-nav a::after {
-    content: '';
-    display: block;
-    height: 3px;
-    background-color: #444;
-    position: absolute;
-    bottom: 0;
-    width: 0%;
-    transition: all 0.3s ease-in-out;
 }
 
 nav a:hover::after {
@@ -355,7 +330,8 @@ nav a.active::after {
     border-radius: 35px;
     left: 0;
     transform: skewX(0);
-    animation: active 0.2s ease;
+    animation: active 0.1s ease;
+    text-decoration: none;
 }
 
 .entry {
