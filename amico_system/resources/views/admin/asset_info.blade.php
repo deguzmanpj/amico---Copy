@@ -53,7 +53,7 @@
 
     <div class="header">
         <p class="pageTitle">Asset Information</p>
-        <p>AMICO ASSET MANAGEMENT</p>
+        <p>AMICO ASSET <br> MANAGEMENT</p>
 
     </div>
 

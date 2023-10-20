@@ -44,8 +44,8 @@
 
 
     <div class="header">
-        <p class="pageTitle">Asset Information</p>
-        <p>AMICO ASSET MANAGEMENT</p>
+        <div><p class="amicoLogo">AMICO ASSET MANAGEMENT</p></div>
+        <div><p class="pageTitle">ASSET INFORMATION</p></div>
 
     </div>
 

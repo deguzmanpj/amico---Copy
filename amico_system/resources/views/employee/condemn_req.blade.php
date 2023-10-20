@@ -42,8 +42,8 @@
     </div>
 
     <div class="header">
-        <p class="pageTitle">Condemnation Request</p>
-        <p>AMICO ASSET MANAGEMENT</p>
+        <div><p class="amicoLogo">AMICO ASSET MANAGEMENT</p></div>
+        <div><p class="pageTitle">CONDEMNATION REQUEST</p></div>
 
     </div>
     <div class="container">

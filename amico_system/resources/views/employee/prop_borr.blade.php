@@ -42,8 +42,8 @@
     </div>
 
     <div class="header">
-        <p class="pageTitle">Property Borrowing</p>
-        <p>AMICO ASSET MANAGEMENT</p>
+        <div><p class="amicoLogo">AMICO ASSET MANAGEMENT</p></div>
+        <div><p class="pageTitle">PROPERTY BORROWING</p></div>
 
     </div>
 
