@@ -5,7 +5,7 @@ body {
 }
 
 .pageTitle {
-    margin-left: 250px;
+    margin-left: 230px;
     margin-top: 20px;
     font-size: 3vw;
     display: inline;
@@ -35,7 +35,7 @@ body {
     margin-top: 50px;
     background-color: white;
     border-radius: 10px;
-    border-style: outset;
+    border-style: groove;
 }
 
 p {
@@ -73,12 +73,13 @@ p {
 }
 
 .table-wrapper {
-    width: 100%;
+    width: 95%;
     background: #fff;
     padding: 20px;
     box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
     border-style: solid;
     border-radius: 10px;
+    height: 150px;
 }
 
 .table-title {
@@ -280,15 +281,13 @@ body {
     font-size: 2rem;
 }
 
-
 nav {
     --primaryColor: #000080;
     --secondaryColor: white;
     --primaryTextColor: black;
     --secondaryTextColor: #dcf4ff;
 
-
-    position: fixed;
+    position:fixed;
     bottom: 0;
     margin-bottom: 1%;
     left: 50%;

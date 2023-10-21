@@ -89,8 +89,6 @@
             <section class="section section--large" id="part1">
                 <div class="container">
                     <div class="table-wrapper">
-                        <div class="table-title">
-                        </div>
                         <table class="table table-bordered" id="8table3">
                             <thead>
                                 <tr>
@@ -202,16 +200,16 @@
                     </div>
                 </div>
             </section>
-
+        
             <nav>
-            <a href="{{ route ('employee/receiving_repo')}}" class="two"   id = "active_page" >Receiving Report</a>
-            <a href="{{ route ('employee/asset_info')}}" class="one">Asset Information</a>
-            <a href="{{ route ('employee/ack_repo')}}" class="item1">Acknowledgement Report</a>
-            <a href="{{ route ('employee/prop_borr')}}" class="item1">Property Borrowing</a>
-            <a href="{{ route ('employee/main_req')}}" class="item1">Maintenance Request</a>
-            <a href="{{ route ('employee/condemn_req')}}" class="item1">Condemnation Request</a>
-            </nav>
-
+                <a href="{{ route ('employee/receiving_repo')}}" class="two"   id = "active_page" >Receiving Report</a>
+                <a href="{{ route ('employee/asset_info')}}" class="one">Asset Information</a>
+                <a href="{{ route ('employee/ack_repo')}}" class="item1">Acknowledgement Report</a>
+                <a href="{{ route ('employee/prop_borr')}}" class="item1">Property Borrowing</a>
+                <a href="{{ route ('employee/main_req')}}" class="item1">Maintenance Request</a>
+                <a href="{{ route ('employee/condemn_req')}}" class="item1">Condemnation Request</a>
+            </nav>                   
+          
         </div>
     </div>
 
