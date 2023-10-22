@@ -80,7 +80,6 @@
             </div>
         </div>
 
-
         <div class="wrapper">
             <section class="section section--large" id="part1">
                 <div class="container">

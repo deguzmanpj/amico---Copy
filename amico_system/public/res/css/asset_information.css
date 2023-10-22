@@ -23,17 +23,29 @@ body {
     text-align: center;
     padding:7px;
     border-radius: 10px;
-    border-style: groove;
+    position: relative;
+    background-color: #0e0465;
+    border-radius: 5px;
+    box-shadow: rgb(233, 219, 27) 5px 4px 0px 0px;
+    padding: 15px;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    border: none;
+    margin-bottom: 30px;
+    font-weight: bold;
 }
 
 .header {
     display: flex;
     justify-content: flex-start; 
     align-items: center; 
-    height: 5vw;
+    height: 6vw;
     margin-left: 30px;
     margin-right: 30px;
-    margin-top: 50px;
+    margin-top: 60px;
     background-color: white;
     border-radius: 10px;
     border-style: groove;
@@ -83,10 +95,6 @@ p {
     height: 150px;
 }
 
-.table-title {
-    padding-bottom: 10px;
-    margin: 0 0 10px;
-}
 
 .table-title h2 {
     margin: 6px 0 0;
@@ -339,32 +347,36 @@ nav {
     left: 50%;
     display: flex;
     transform: translateX(-50%);
-    background-color: gray;
+    background-color: white;
     font-weight: bold;
     width: 100%;
     border-radius: 10px;
     border-style: solid;
+    border-color: rgb(233, 219, 27);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 nav a {
     width: 200px;
-    text-align: center;
-    height: 50px;
+    height: 35px;
     font-size: 14px;
 
     cursor: pointer;
     color: #000080;
-    background-color: gray;
+    background-color: white;
 }
 
 nav a {
     color: #000080;
-    border-radius: 35px;
+    border-radius: 20px;
     display: flex;
     -webkit-user-select: none;
     user-select: none;
     overflow: hidden;
-    transition: color 0.2s ease;
+    transition: color 0.1s ease;
 }
 
 nav a {
