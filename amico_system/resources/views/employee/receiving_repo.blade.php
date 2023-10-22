@@ -72,10 +72,6 @@
                 @endif
             </div>
 
-
-
-
-
             <div class="table-title">
                 <div class="row">
                     <button type="button" class="btn btn-info add-new"><i class="fa fa-plus"></i> Add Entry</button>

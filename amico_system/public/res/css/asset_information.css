@@ -99,29 +99,74 @@ p {
 }
 
 .table-title .add-new {
-    background-color: #000080;
-    float: right;
-    height: 30px;
-    font-weight: bold;
-    font-size: 12px;
-    text-shadow: none;
-    min-width: 100px;
-    border-radius: 50px;
-    line-height: 13px;
+    position: relative;
+    background-color: rgb(34, 103, 230);
+    border-radius: 5px;
+    box-shadow: rgb(18, 46, 121) 0px 4px 0px 0px;
+    padding: 15px;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    width: 154px;
+    height: 49px;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    transition: all .3s ease-in-out;
+    z-index: 1;
+    overflow: hidden;
 }
 
-.table-title .leave-note {
-    background-color: #e4d802;
-    float: right;
-    height: 30px;
-    font-weight: bold;
-    font-size: 12px;
-    text-shadow: none;
-    min-width: 100px;
-    border-radius: 50px;
-    line-height: 13px;
-    margin-right: 1%;
+.table-title .add-new::before{
+    content: "";
+    background-color: rgb(30, 77, 179);
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: width 300ms ease-in-out;
+    display: inline-block;
 }
+
+.table-title .add-new:hover::before {
+    width: 100%;
+  }
+
+.table-title .leave-note {
+    position: relative;
+    background-color: rgb(216, 219, 41);
+    border-radius: 5px;
+    box-shadow: rgb(146, 155, 20) 0px 4px 0px 0px;
+    padding: 15px;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    width: 154px;
+    height: 49px;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    transition: all .3s ease-in-out;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.table-title .leave-note::before{
+    content: "";
+    background-color: rgb(186, 189, 31);
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: width 300ms ease-in-out;
+    display: inline-block;
+}
+
+.table-title .leave-note:hover::before {
+    width: 100%;
+  }
 
 .table-title .add-new i {
     margin-right: 4px;
@@ -296,14 +341,15 @@ nav {
     transform: translateX(-50%);
     background-color: gray;
     font-weight: bold;
-    width: 1250px;
+    width: 100%;
     border-radius: 10px;
+    border-style: solid;
 }
 
 nav a {
     width: 200px;
     text-align: center;
-    height: 40px;
+    height: 50px;
     font-size: 14px;
 
     cursor: pointer;
